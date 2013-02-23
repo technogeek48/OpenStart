@@ -1,1 +1,10 @@
 C:\Users\MJ\Documents\GitHub\OpenStart\OpenStart\OpenStart\bin\Debug\OpenStart.exe.config
+C:\Users\MJ\Documents\GitHub\OpenStart\OpenStart\OpenStart\bin\Debug\OpenStart.exe
+C:\Users\MJ\Documents\GitHub\OpenStart\OpenStart\OpenStart\bin\Debug\OpenStart.pdb
+C:\Users\MJ\Documents\GitHub\OpenStart\OpenStart\OpenStart\bin\Debug\OpenStart.xml
+C:\Users\MJ\Documents\GitHub\OpenStart\OpenStart\OpenStart\obj\Debug\OpenStart.Start.resources
+C:\Users\MJ\Documents\GitHub\OpenStart\OpenStart\OpenStart\obj\Debug\OpenStart.Resources.resources
+C:\Users\MJ\Documents\GitHub\OpenStart\OpenStart\OpenStart\obj\Debug\OpenStart.vbproj.GenerateResource.Cache
+C:\Users\MJ\Documents\GitHub\OpenStart\OpenStart\OpenStart\obj\Debug\OpenStart.exe
+C:\Users\MJ\Documents\GitHub\OpenStart\OpenStart\OpenStart\obj\Debug\OpenStart.xml
+C:\Users\MJ\Documents\GitHub\OpenStart\OpenStart\OpenStart\obj\Debug\OpenStart.pdb
