@@ -31,6 +31,7 @@ Partial Class Start
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.LineShape2 = New Microsoft.VisualBasic.PowerPacks.LineShape()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -39,7 +40,7 @@ Partial Class Start
         Me.ShapeContainer1.Location = New System.Drawing.Point(0, 0)
         Me.ShapeContainer1.Margin = New System.Windows.Forms.Padding(0)
         Me.ShapeContainer1.Name = "ShapeContainer1"
-        Me.ShapeContainer1.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.RectangleShape2, Me.LineShape1, Me.RectangleShape3, Me.UserPictureBorder, Me.RectangleShape1})
+        Me.ShapeContainer1.Shapes.AddRange(New Microsoft.VisualBasic.PowerPacks.Shape() {Me.LineShape2, Me.RectangleShape2, Me.LineShape1, Me.RectangleShape3, Me.UserPictureBorder, Me.RectangleShape1})
         Me.ShapeContainer1.Size = New System.Drawing.Size(428, 560)
         Me.ShapeContainer1.TabIndex = 0
         Me.ShapeContainer1.TabStop = False
@@ -69,6 +70,7 @@ Partial Class Start
         Me.RectangleShape3.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque
         Me.RectangleShape3.Location = New System.Drawing.Point(9, 33)
         Me.RectangleShape3.Name = "RectangleShape3"
+        Me.RectangleShape3.SelectionColor = System.Drawing.Color.Transparent
         Me.RectangleShape3.Size = New System.Drawing.Size(277, 517)
         '
         'UserPictureBorder
@@ -122,6 +124,15 @@ Partial Class Start
         Me.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button1.UseVisualStyleBackColor = False
         '
+        'LineShape2
+        '
+        Me.LineShape2.BorderColor = System.Drawing.SystemColors.AppWorkspace
+        Me.LineShape2.Name = "LineShape2"
+        Me.LineShape2.X1 = 38
+        Me.LineShape2.X2 = 257
+        Me.LineShape2.Y1 = 470
+        Me.LineShape2.Y2 = 470
+        '
         'Start
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -151,5 +162,6 @@ Partial Class Start
     Friend WithEvents LineShape1 As Microsoft.VisualBasic.PowerPacks.LineShape
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
     Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents LineShape2 As Microsoft.VisualBasic.PowerPacks.LineShape
 
 End Class
